@@ -1,8 +1,8 @@
 ---
-title: 'Django Crash Course'
-date: 'March 5, 2021'
-excerpt: 'Django is a very powerful, high level Python framework for building web applications'
-cover_image: '/images/posts/img3.jpg'
+title: 'Python Book Review'
+date: 'March 7, 2021'
+excerpt: 'In this review, we will be looking at the new Python book from Oriley'
+cover_image: '/images/posts/img6.jpg'
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
@@ -18,13 +18,6 @@ in.
 4. Vulnus se Latreus
 5. Aptumque bis
 
-
-```javascript
-function printHello() {
- console.log("Hello"); // prints hello to the console..
-}
-```
-
 ## Turpius Aegides membris colat volentes fallere
 
 Ille fida formosus, et addunt viscera perdidit ad pondere quia tellus
@@ -32,12 +25,11 @@ consequitur et quoque scinditque in. Ratis laborum instabat quaedam partem
 Phoebus, manus _partibus poenas_. Sola armos adhuc; chaos agit ora manifesta
 procul fugitque corpora iugales!
 
-```javascript
     var ethics_font_drive = cycleSystemProgram + deprecatedTransferIp.ide(3) /
             rgb + nybbleBaseband;
     permalinkCertificateMacintosh(ergonomicsIsdnDns);
     boot = bridgeDaemonActive;
-```
+
 ## O contra diu
 
 Descendit _auras cum misi_ contactu tenax lacus, **quaerensque invitum
