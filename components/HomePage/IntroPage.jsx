@@ -7,7 +7,7 @@ function About() {
         {/* Cards */}
         <div class="w-full mx-auto rounded-lg bg-white p-5 mb-6">
           <div class="w-full flex mb-4 items-center">
-            <div class="overflow-hidden rounded-full w-24 h-24 bg-gray-50 border-2 border-main-color">
+            <div class="overflow-hidden rounded-full w-24 h-24 bg-gray-50 border-4 border-main-color">
               <img src="https://i.pravatar.cc/100?img=1" alt="" />
             </div>
             <div class="flex-grow pl-3 m-4">

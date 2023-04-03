@@ -5,6 +5,7 @@ excerpt: 'Django is a very powerful, high level Python framework for building we
 cover_image: '/images/posts/img3.jpg'
 ---
 
+
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
 haec praepes [partes epulae](http://cui.com/), in egisse de. Caecisque ter
 manus. Munere in exhalat, ferre sed [habe quaeque saepe](http://ne.org/fretum)
@@ -25,6 +26,7 @@ function printHello() {
 }
 ```
 
+
 ## Turpius Aegides membris colat volentes fallere
 
 Ille fida formosus, et addunt viscera perdidit ad pondere quia tellus
@@ -38,6 +40,7 @@ procul fugitque corpora iugales!
     permalinkCertificateMacintosh(ergonomicsIsdnDns);
     boot = bridgeDaemonActive;
 ```
+
 ## O contra diu
 
 Descendit _auras cum misi_ contactu tenax lacus, **quaerensque invitum

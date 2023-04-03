@@ -1,8 +1,8 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import { marked } from 'marked';
-import Link from 'next/link'
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { marked } from "marked";
+import Link from "next/link";
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
@@ -11,43 +11,47 @@ export default function PostPage({
 }) {
   return (
     <>
-      <Link href='/'>
-        <div className='btn btn-back'>Go Back</div>
+      <Link href="/">
+        <div class="">Go Back</div>
       </Link>
-      <div className='card card-page'>
-        <h1 className='post-title'>{title}</h1>
-        <div className='post-date'>Posted on {date}</div>
-        {/* <img src={cover_image} alt='' /> */}
-        <div className='post-body'>
+      <div class="p-32">
+        <h1 class="mt-3 md:mt-0 text-gray-700 font-bold text-3xl mb-2">
+          {title}
+        </h1>
+        <div class="text-gray-600 text-xs flex gap-2">
+          posted on
+          {date}
+        </div>
+        <div class="mt-20">
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join('posts'))
+  const files = fs.readdirSync(path.join("posts"));
 
   const paths = files.map((filename) => ({
     params: {
-      slug: filename.replace('.md', ''),
+      slug: filename.replace(".md", ""),
     },
-  }))
+  }));
 
   return {
     paths,
     fallback: false,
-  }
+  };
 }
 
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMeta = fs.readFileSync(
-    path.join('posts', slug + '.md'),
-    'utf-8'
-  )
+    path.join("posts", slug + ".md"),
+    "utf-8"
+  );
 
-  const { data: frontmatter, content } = matter(markdownWithMeta)
+  const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {
     props: {
@@ -55,5 +59,5 @@ export async function getStaticProps({ params: { slug } }) {
       slug,
       content,
     },
-  }
+  };
 }

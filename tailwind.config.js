@@ -27,7 +27,8 @@ module.exports = {
         'tag2': '#b91c1c',
         'tag3': '#7BC0A3',
          'gray': 'gray',
-         'main-color': '#40DFEF'
+         'main-color': '#40DFEF',
+         'yellow': 'yellow',
       },
     extend: {},
   },
