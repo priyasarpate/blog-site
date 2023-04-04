@@ -87,7 +87,7 @@ function project() {
           />
           <div class="flex justify-between items-center">
             <div>
-              <h1 class="mt-5 text-2xl font-semibold">Chef dashboard</h1>
+              <h1 class="mt-5 text-2xl font-semibold">Animated Cards</h1>
               <div class="flex mt-2">
                 <p class=""> github</p>
 
@@ -98,6 +98,7 @@ function project() {
             </div>
             <div>
               <button class="text-white text-md font-semibold  bg-main-color py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">
+              <a href="https://thriving-gnome-2ba27e.netlify.app/"></a>
                 Live
               </button>
             </div>

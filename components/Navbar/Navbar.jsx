@@ -10,7 +10,7 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                class="flex md:inline-flex p-1 items-center hover:bg-gray-50 mt-4"
+                class="flex md:inline-flex p-1 items-center hover:border-b-2 border-main-color mt-4"
               >
                 <span>Home</span>
               </Link>
@@ -18,7 +18,7 @@ function Navbar() {
             <li>
               <Link
                 href="/project"
-                class="flex md:inline-flex p-1 items-center hover:bg-gray-50 mt-4"
+                class="flex md:inline-flex p-1 items-center mt-4 hover:border-b-2 border-main-color"
               >
                 <span>Projects</span>
               </Link>
@@ -26,7 +26,7 @@ function Navbar() {
             <li>
               <Link
                 href="/blog"
-                class="flex md:inline-flex p-1 items-center hover:bg-gray-50 mt-4"
+                class="flex md:inline-flex p-1 items-center mt-4 hover:border-b-2 border-main-color"
               >
                 <span>Blogs</span>
               </Link>
