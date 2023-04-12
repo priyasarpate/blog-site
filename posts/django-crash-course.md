@@ -20,8 +20,8 @@ in.
 5. Aptumque bis
 
 
-```javascript
-function printHello() {
+```js
+function printHello() { 
  console.log("Hello"); // prints hello to the console..
 }
 ```

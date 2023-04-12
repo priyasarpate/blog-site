@@ -5,7 +5,7 @@ import Link from "next/link";
 function project() {
   return (
     <div>
-      <div class="text-center max-w-xl mx-auto">
+      <div class="text-center max-w-xl mx-auto bg-whitesmoke">
         {/* <h1 class="text-6xl md:text-7xl font-bold mb-5 text-gray">
           <br />
           some projects.
@@ -20,11 +20,11 @@ function project() {
           Dribble into react
         </h3>
         <div class="text-center mb-1">
-          <span class="inline-block w-1 h-1 rounded-full bg-main-color ml-1"></span>
-          <span class="inline-block w-3 h-1 rounded-full bg-main-color ml-1"></span>
-          <span class="inline-block w-40 h-1 rounded-full bg-main-color"></span>
-          <span class="inline-block w-3 h-1 rounded-full bg-main-color ml-1"></span>
-          <span class="inline-block w-1 h-1 rounded-full bg-main-color ml-1"></span>
+          <span class="inline-block w-1 h-1 rounded-full bg-light-blue ml-1"></span>
+          <span class="inline-block w-3 h-1 rounded-full bg-light-blue ml-1"></span>
+          <span class="inline-block w-40 h-1 rounded-full bg-light-blue"></span>
+          <span class="inline-block w-3 h-1 rounded-full bg-light-blue ml-1"></span>
+          <span class="inline-block w-1 h-1 rounded-full bg-light-blue ml-1"></span>
         </div> 
       {/* <div class="min-h-screen bg-gray-100 flex items-center"> */}
       <div class="bg-gray-100 flex">
@@ -47,7 +47,7 @@ function project() {
               </div>
             </div>
             <div>
-              <button class="text-white text-md font-semibold bg-main-color py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">
+              <button class="text-white text-md font-semibold bg-light-blue py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">
                 Live
               </button>
             </div>
@@ -72,7 +72,7 @@ function project() {
               </div>
             </div>
             <div>
-              <button class="text-white text-md font-semibold  bg-main-color py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">
+              <button class="text-white text-md font-semibold  bg-light-blue py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">
                 Live
               </button>
             </div>
@@ -97,7 +97,7 @@ function project() {
               </div>
             </div>
             <div>
-              <button class="text-white text-md font-semibold  bg-main-color py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">
+              <button class="text-white text-md font-semibold  bg-light-blue py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-500 transform-gpu hover:scale-110 ">
               <a href="https://thriving-gnome-2ba27e.netlify.app/"></a>
                 Live
               </button>
