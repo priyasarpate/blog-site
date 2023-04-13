@@ -14,15 +14,15 @@ export default function PostPage({
       <Link href="/">
         <div class="">Go Back</div>
       </Link>
-      <div class="p-32">
-        <h1 class="mt-3 md:mt-0 text-gray-700 font-bold text-3xl mb-2">
+      <div class="post-container">
+        <h1 class="post-title">
           {title}
         </h1>
-        <div class="text-gray-600 text-xs flex gap-2">
+        <div class="post-date">
           posted on
           {date}
         </div>
-        <div class="mt-20">
+        <div class="post-body">
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
       </div>

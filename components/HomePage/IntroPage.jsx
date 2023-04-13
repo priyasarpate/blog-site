@@ -15,14 +15,14 @@ function About() {
         {/* Cards */}
         <div class="w-full mx-auto rounded-lg bg-white p-5 mt-24">
           <div class="w-full flex mb-4 items-center">
-            <div class="overflow-hidden rounded-full w-16 h-16 bg-gray-50 border-4 border-light-blue">
+            <div class="flex justify-center items-center overflow-hidden rounded-full w-20 h-20 bg-gray-50 border-4 border-light-blue">
               <Image src={profile} alt="" width={150} height={150} />
             </div>
             <div class="flex-grow pl-3 m-4 gap-3">
               <h6 class="font-bold text-4xl text-gray-600 text-dark-blue">
                 Gunpriya✨
               </h6>
-              <div class="text-lg p-2 text-dark-blue text-opacity-50 ">
+              <div class="text-lg p-2 text-dark-blue text-opacity-50">
                 Front-end developer
                 <div class="flex gap-1">
                   <FiGithub class="h-4 w-4 hover:text-dark-blue cursor-pointer" />
@@ -40,15 +40,15 @@ function About() {
               career in tech.
             </p>
           </div>
-          <div class="flex items-center py-5 gap-3 font-normal">
+          <div class="flex items-center py-5 gap-3 font-normal mt-5">
             <Link href="/project">
-              <button class="bg-orange bg-opacity-25 flex items-center border-0 py-2 px-5 rounded-md border-light-blue text-dark-blue">
+              <button class="bg-orange bg-opacity-25 flex items-center border-0 py-2 px-10 rounded-md border-light-blue text-dark-blue">
                 <AiFillAppstore />
                 Projects
               </button>
             </Link>
             <Link href="/blog">
-              <button class="bg-light-blue bg-opacity-25  flex items-center border-0 py-2 px-5 rounded-md border-light-blue text-dark-blue">
+              <button class="bg-light-blue bg-opacity-25  flex items-center border-0 py-2 px-10 rounded-md border-light-blue text-dark-blue">
                 <FaBlogger />
                 Blogs
               </button>
