@@ -41,7 +41,7 @@ function About() {
             </p>
           </div>
           <div class="flex items-center py-5 gap-3 font-normal mt-5">
-            <Link href="/project">
+            <Link href="/projects">
               <button class="bg-orange bg-opacity-25 flex items-center border-0 py-2 px-10 rounded-md border-light-blue text-dark-blue">
                 <AiFillAppstore />
                 Projects

@@ -5,18 +5,11 @@ import Link from "next/link";
 function project() {
   return (
     <div>
-      <div class="text-center max-w-xl mx-auto bg-whitesmoke">
-        {/* <h1 class="text-6xl md:text-7xl font-bold mb-5 text-gray">
-          <br />
-          some projects.
-        </h1> */}
-      </div>
-     
 
       <div class="text-end p-5 ">
         <Link href="/">Home</Link>
       </div>
-      <h3 class="text-4xl font-light text-gray text-center mt-6">
+      {/* <h3 class="text-4xl font-light text-gray text-center mt-6">
           Dribble into react
         </h3>
         <div class="text-center mb-1">
@@ -25,9 +18,9 @@ function project() {
           <span class="inline-block w-40 h-1 rounded-full bg-light-blue"></span>
           <span class="inline-block w-3 h-1 rounded-full bg-light-blue ml-1"></span>
           <span class="inline-block w-1 h-1 rounded-full bg-light-blue ml-1"></span>
-        </div> 
+        </div>  */}
       {/* <div class="min-h-screen bg-gray-100 flex items-center"> */}
-      <div class="bg-gray-100 flex">
+      {/* <div class="bg-gray-100 flex">
 
         <div class="container mx-auto p-9 bg-white max-w-sm rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300">
           <img
@@ -104,7 +97,7 @@ function project() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

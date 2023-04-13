@@ -12,12 +12,10 @@ export default function PostPage({
   return (
     <>
       <Link href="/">
-        <div class="">Go Back</div>
+        <button class="btn-back">Go Back</button>
       </Link>
       <div class="post-container">
-        <h1 class="post-title">
-          {title}
-        </h1>
+        <h1 class="post-title">{title}</h1>
         <div class="post-date">
           posted on
           {date}
