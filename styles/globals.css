@@ -9,7 +9,6 @@
 }
 
 ::-moz-selection {
-  /* Code for Firefox */
   color: whitesmoke;
   background: #40DFEF;
 }
@@ -71,7 +70,7 @@
 }
 
 .post-date {
-  background: #f4f4f4;
+  /* background: #f4f4f4; */
   margin-bottom: 20px;
   padding: 3px 10px;
 }
@@ -86,7 +85,7 @@ ol {
 
 .post-body pre {
   background: #000;
-  color: #40DFEF;
+  color: #fff;
   padding: 20px;
   margin: 20px 0;
   line-height: 2.3;
