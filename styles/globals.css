@@ -6,6 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+ font-family: Poppins,sans-serif !important
 }
 
 ::-moz-selection {
@@ -23,6 +24,16 @@
   margin: auto;
   overflow: auto;
   padding: 0 10px;
+  font-family: Poppins,sans-serif !important;
+  color: hsla(0,0%,0%,0.9);
+  font-family: 'Merriweather','Georgia',serif;
+  font-weight: 500;
+  font-size: 3rem;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font: 100%/1.75 'Merriweather','Georgia',serif;
 }
 
 .btn {
@@ -58,6 +69,7 @@
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
 }
 
 .card-page {
@@ -66,21 +78,40 @@
 
 .post-title {
   margin: 10px 0;
-  font-size: 30px;
+  font-size: 35px;
+  color: #070A52;
 }
 
 .post-date {
   /* background: #f4f4f4; */
   margin-bottom: 20px;
   padding: 3px 10px;
+  color: darkgray;
+}
+
+
+.post-body{
+  font-family: Poppins,sans-serif !important;
+  color: hsla(0,0%,0%,0.9);
+  font-family: 'Merriweather','Georgia',serif;
+  font-weight: 500;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  font: 100%/1.96 'Merriweather','Georgia',serif;
+  font-size: 18px;
+
 }
 
 .post-body ul,
 ol {
-  font-size: 110%;
+  font-size: 10%;
   line-height: 2.3;
   font-weight: bold;
   margin: 10px 0;
+
+  
 }
 
 .post-body pre {
@@ -89,6 +120,8 @@ ol {
   padding: 20px;
   margin: 20px 0;
   line-height: 2.3;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 @media (max-width: 500px) {
