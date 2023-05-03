@@ -5,7 +5,7 @@ import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiTwitter, FiGithub, FiLinkedin } from "react-icons/fi";
 import Image from "next/image";
-import profile from "../../public/profile.svg"
+import avatar from "../../public/avatar.jpg"
 
 
 function About() {
@@ -16,7 +16,7 @@ function About() {
         <div class="w-full mx-auto rounded-lg bg-white p-5 mt-24">
           <div class="w-full flex mb-4 items-center">
             <div class="flex justify-center items-center overflow-hidden rounded-full w-20 h-20 bg-gray-50 border-4 border-light-blue">
-              <Image src={profile} alt="" width={150} height={150} />
+              <Image src={avatar} alt="" width={150} height={150} />
             </div>
             <div class="flex-grow pl-3 m-4 gap-3">
               <h6 class="font-bold text-4xl text-gray-600 text-dark-blue">
