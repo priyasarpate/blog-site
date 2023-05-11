@@ -5,6 +5,7 @@ function Trial() {
   return (
     <div>
       <section class="flex flex-col justify-center antialiased bg-gray-50 text-gray-600 min-h-screen p-4">
+     <p class="text-center">projects</p> 
         <div class="h-full">
           {/* <!-- Card --> */}
           <div class="max-w-xs mx-auto">

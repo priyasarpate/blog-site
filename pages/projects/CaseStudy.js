@@ -1,11 +1,11 @@
 import React from "react";
 
-function Coraline() {
+function CaseStudy() {
   return (
     <div>
       {/* min-h-screen  */}
-      <div class="h-screen grid place-items-center font-mono bg-aliceblue">
-        <div class="bg-white rounded-md bg-gray-800 shadow-lg">
+      <div class="grid place-items-center font-mono">
+        <div class="bg-white rounded-md shadow-lg">
           <div class="md:flex px-4 leading-none max-w-4xl">
             <div class="flex-none ">
               <img
@@ -16,40 +16,42 @@ function Coraline() {
             </div>
 
             <div class="flex-col text-gray-300">
-              <p class="px-4 text-2xl font-bold py-6">Joker (2020)</p>
+              <p class="px-4 text-2xl font-bold py-6">🪄Beatify</p>
               <hr class="hr-text text-gray" data-content=""></hr>
-              <div class="text-md flex justify-between px-4 my-2">
-                <span class="font-bold">2h 2min | Crime, Drama, Thriller</span>
+              <div class="text-md flex justify-between px-4 py-4 my-2 ">
+                <span class="font-bold overflow-hidden	">
+                  Skin Care Recommendation App
+                </span>
                 <span class="font-bold"></span>
               </div>
               <p class="hidden md:block px-4 my-4 text-sm text-left">
-                In Gotham City, mentally troubled comedian Arthur Fleck is
-                disregarded and mistreated by society. He then embarks on a
-                downward spiral of revolution and bloody crime. This path brings
-                him face-to-face with his alter-ego: the Joker.{" "}
+                n publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                may be
               </p>
               <div class="text-xs">
                 <button
                   type="button"
                   class="border border-gray-400 text-gray-400 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-900 focus:outline-none focus:shadow-outline"
                 >
-                  Code
+                  Read
                 </button>
 
                 <button
                   type="button"
                   class="border border-gray-400 text-gray-400 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-900 focus:outline-none focus:shadow-outline"
                 >
-                  Live
+                  Figma
                 </button>
               </div>
             </div>
           </div>
-          <div class="flex justify-between items-center px-4 mb-4 w-full"></div>
+          <div class="flex justify-between items-center px-4 mb-0 w-full"></div>
         </div>
       </div>
     </div>
   );
 }
 
-export default Coraline;
+export default CaseStudy;
