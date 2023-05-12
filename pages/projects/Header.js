@@ -8,19 +8,19 @@ function Header() {
           all
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
-          Case Study
+          case study
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
           projects
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
-          Concepts
+          concepts
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
-          dribbble into React
+          dribbble into react
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
-          Small Projects
+          small projects
         </button>
       </div>
     </div>
