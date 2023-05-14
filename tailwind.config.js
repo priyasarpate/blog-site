@@ -21,7 +21,8 @@ module.exports = {
          'orange': 'orange',
          'blue': '#3C486B',
          'dark-blue': '#070A52',
-         'whitesmoke': 'whitesmoke'
+         'whitesmoke': 'whitesmoke',
+         'dribble': '#F266AB',
       },
     extend: {},
   },

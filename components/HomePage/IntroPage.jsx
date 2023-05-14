@@ -2,11 +2,10 @@ import React from "react";
 import { FaBlogger } from "react-icons/fa";
 import { AiFillAppstore } from "react-icons/ai";
 import Link from "next/link";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineDribbble } from "react-icons/ai";
 import { FiTwitter, FiGithub, FiLinkedin } from "react-icons/fi";
 import Image from "next/image";
-import avatar from "../../public/avatar.jpg"
-
+import avatar from "../../public/avatar.jpg";
 
 function About() {
   return (
@@ -25,10 +24,24 @@ function About() {
               <div class="text-lg p-2 text-dark-blue text-opacity-50">
                 Front-end developer
                 <div class="flex gap-1">
-                  <FiGithub class="h-4 w-4 hover:text-dark-blue cursor-pointer" />
-                  <FiTwitter class=" h-4 w-4 hover:text-dark-blue cursor-pointer" />
-                  <FiLinkedin class=" h-4 w-4 hover:text-dark-blue cursor-pointer" />
-                  <AiOutlineMail class=" h-4 w-4 hover:text-dark-blue cursor-pointer" />
+                  <a href="https://github.com/priyasarpate" target="_blank">
+                    <FiGithub class="h-4 w-4 hover:text-dark-blue cursor-pointer" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/priyasarpate/"
+                    target="_blank"
+                  >
+                    <FiLinkedin class=" h-4 w-4 hover:text-dark-blue cursor-pointer" />
+                  </a>
+                  <a href="https://twitter.com/priyasarpate" target="_blank">
+                    <FiTwitter class=" h-4 w-4 hover:text-dark-blue cursor-pointer" />
+                  </a>
+                  <a href="https://dribbble.com/Gunpriya" target="_blank">
+                    <AiOutlineDribbble class=" h-4 w-4 hover:text-dark-blue cursor-pointer" />
+                  </a>
+                  <a href="mailto:" target="_blank">
+                    <AiOutlineMail class=" h-4 w-4 hover:text-dark-blue cursor-pointer" />
+                  </a>
                 </div>
               </div>
             </div>
