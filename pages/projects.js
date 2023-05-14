@@ -3,7 +3,7 @@ import CaseStudy from "./projects/CaseStudy";
 import Header from "./projects/Header";
 import SmallProjects from "./projects/SmallProjects";
 import MainProjects from "./projects/MainProjects";
-import Trial from "./projects/Trial";
+import ReactProjects from "./projects/ReactProjects";
 import DribbleToReact from "./projects/DribbbleToReact";
 import UIConcepts from "./projects/UIConcepts";
 
@@ -13,8 +13,7 @@ function projects() {
     <div class="bg-aliceblue">
       <Header />
       <CaseStudy />
-      <Trial />
-      {/* <MainProjects /> */}
+      <ReactProjects />
       <SmallProjects />
       <DribbleToReact />
       <UIConcepts />
