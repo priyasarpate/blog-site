@@ -1,6 +1,6 @@
 import React from "react";
 import { dribbletoreacts, smallprojects } from "./data";
-import { AiOutlineDribbble } from "react-icons/ai";
+import { FiGithub } from "react-icons/fi";
 import Image from "next/image";
 
 function SmallProjects() {
@@ -27,6 +27,9 @@ function SmallProjects() {
               </span>
             </a>
             <div>
+            <a href={SmallProject.github} target="_blank">
+                <FiGithub class="h-5 w-5 text-dark-blue hover:text-dark-blue cursor-pointer" />
+              </a>
             </div>
           </div>
         </div>

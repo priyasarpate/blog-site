@@ -66,7 +66,6 @@ export const dribbletoreacts = [
     id: 2,
     title: "Landing Page",
     img: "/img/homepage.png",
-
   },
 ];
 
@@ -76,29 +75,28 @@ export const smallprojects = [
     title: "Billing App",
     img: "/img/invoice.jpg",
     live: "https://master--marvelous-creponne-c64b46.netlify.app/",
-    github: ""
+    github: "https://github.com/priyasarpate/billing-app",
   },
   {
     id: 2,
     title: "Sticky Notes",
     url: "https://github.com/priyasarpate",
     img: "/img/homepage.png",
-    github: "",
-
+    github: "https://github.com/priyasarpate/sticky-notes",
   },
   {
     id: 3,
     title: "Calender",
     url: "https://github.com/priyasarpate",
     img: "/img/calender.png",
-    github: "",
+    github: "https://github.com/priyasarpate/calender",
   },
   {
     id: 4,
     title: "Formik Form",
     url: "https://github.com/priyasarpate",
     img: "/img/formikform.png",
-    github: "",
+    github: "https://github.com/priyasarpate/react-form",
   },
 ];
 export const reactprojects = [
@@ -107,7 +105,7 @@ export const reactprojects = [
     title: "Billing App",
     img: "/img/invoice.jpg",
     live: "https://master--marvelous-creponne-c64b46.netlify.app/",
-    github: ""
+    github: "",
   },
   {
     id: 2,
@@ -115,7 +113,6 @@ export const reactprojects = [
     url: "https://github.com/priyasarpate",
     img: "/img/homepage.png",
     github: "",
-
   },
   {
     id: 3,
