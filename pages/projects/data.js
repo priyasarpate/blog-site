@@ -81,7 +81,7 @@ export const smallprojects = [
     id: 2,
     title: "Sticky Notes",
     url: "https://github.com/priyasarpate",
-    img: "/img/homepage.png",
+    img: "/img/sticky_notes.jpg",
     github: "https://github.com/priyasarpate/sticky-notes",
   },
   {
