@@ -13,7 +13,7 @@ function CaseStudy() {
               <Image
                 alt="pic"
                 src={casestudy}
-                class=" h-80 w-56 rounded-md transform -translate-y-4 border-4 border-gray-300"
+                class="w-56 h-80 rounded-md transform -translate-y-4 border-4 border-gray-300"
               />
             </div>
 
