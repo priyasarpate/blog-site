@@ -1,11 +1,13 @@
 import React from "react";
-import CaseStudy from "./projects/CaseStudy";
-import Header from "./projects/Header";
-import SmallProjects from "./projects/SmallProjects";
-import DribbleToReact from "./projects/DribbbleToReact";
-import UIConcepts from "./projects/UIConcepts";
-import ReactWork from "./projects/ReactWork";
-import Top from "./projects/Top";
+
+import CaseStudy from "../components/projects/CaseStudy";
+import Header from "../components/projects/Header";
+
+import SmallProjects from "../components/projects/SmallProjects";
+import DribbleToReact from "../components/projects/DribbbleToReact";
+import UIConcepts from "../components/projects/UIConcepts";
+import ReactWork from "../components/projects/ReactWork";
+
 function projects() {
   return (
     <>
