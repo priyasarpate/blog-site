@@ -6,9 +6,9 @@ function CaseStudy() {
   return (
     <div>
       {/* min-h-screen  */}
-      <div class="flex justify-center items-center font-mono mt-11 shadow-2xl">
-        <div class="shadow-2xl">
-          <div class="md:flex px-4 max-w-4xl shadow-2xl">
+      <div class="flex justify-center items-center font-mono mt-11 py-8">
+        <div class="">
+          <div class="md:flex px-4 py-2 max-w-4xl shadow-md">
             <div class="flex-none">
               <Image
                 alt="pic"
