@@ -7,7 +7,7 @@ function CaseStudy() {
     <div>
       {/* min-h-screen  */}
       <div class="flex justify-center items-center font-mono mt-11 py-8">
-        <div class="">
+        <div class="shadow-xl">
           <div class="md:flex px-4 py-2 max-w-4xl shadow-md">
             <div class="flex-none">
               <Image
