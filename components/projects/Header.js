@@ -14,13 +14,13 @@ function Header() {
           projects
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
-          concepts
+          small projects
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
           dribbble into react
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
-          small projects
+          concepts
         </button>
       </div>
     </div>

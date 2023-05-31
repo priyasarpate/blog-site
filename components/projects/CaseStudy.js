@@ -29,7 +29,7 @@ function CaseStudy() {
                 <span class="font-bold"></span>
               </div>
               <p class="hidden md:block px-4 my-4 text-sm text-left">
-                n publishing and graphic design, Lorem ipsum is a placeholder
+                in publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
                 or a typeface without relying on meaningful content. Lorem ipsum
                 may be
