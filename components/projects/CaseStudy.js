@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import casestudy from "../../public/img/casestudy.jpg";
+import beautify from "../../public/img/beautify.jpg";
 
 function CaseStudy() {
   return (
@@ -12,7 +12,7 @@ function CaseStudy() {
             <div class="flex-none">
               <Image
                 alt="pic"
-                src={casestudy}
+                src={beautify}
                 class="w-56 h-80 rounded-md transform -translate-y-4 border-4 border-gray-300"
               />
             </div>
