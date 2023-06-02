@@ -1,6 +1,7 @@
 import React from "react";
 import { dribbletoreacts, smallprojects } from "./data";
 import { FiGithub } from "react-icons/fi";
+import { MdWebAsset } from "react-icons/md";
 import Image from "next/image";
 
 function SmallProjects() {
@@ -26,8 +27,11 @@ function SmallProjects() {
                 {SmallProject.title}
               </span>
             </a>
-            <div>
-            <a href={SmallProject.github} target="_blank">
+            <div class="flex">
+              <a href={SmallProject.github} target="_blank">
+                <MdWebAsset class="h-5 w-6 text-dark-blue hover:text-dark-blue cursor-pointer" />
+              </a>
+              <a href={SmallProject.github} target="_blank">
                 <FiGithub class="h-5 w-5 text-dark-blue hover:text-dark-blue cursor-pointer" />
               </a>
             </div>

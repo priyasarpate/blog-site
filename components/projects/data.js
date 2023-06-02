@@ -29,26 +29,26 @@ export const uiconcepts = [
   {
     id: 1,
     title: "Movie Dashboard",
-    url: "https://github.com/priyasarpate",
+    url: "https://dribbble.com/shots/21634312-Movie-Expo-Web-App",
     img: "/img/movie.jpg",
   },
 
   {
     id: 2,
     title: "Apple Watch",
-    url: "https://github.com/priyasarpate",
+    url: "https://dribbble.com/shots/21360748-Apple-Watch-Landing-Page-redesign",
     img: "/img/Dribble1.jpg",
   },
   {
     id: 3,
     title: "Dot&Key Landing Page",
-    url: "https://github.com/priyasarpate",
+    url: "https://dribbble.com/shots/21360725-Daily-UI-Design-Challenge-Day-02-Checkout",
     img: "/img/dribble3.jpg",
   },
   {
     id: 4,
     title: "Registration Form",
-    url: "https://github.com/priyasarpate",
+    url: "https://dribbble.com/shots/21360674-Registration-and-Login-form",
     img: "/img/figma_form.jpg",
   },
 ];
@@ -82,6 +82,7 @@ export const smallprojects = [
     title: "Sticky Notes",
     url: "https://github.com/priyasarpate",
     img: "/img/sticky_notes.jpg",
+    live: "https://master--marvelous-creponne-c64b46.netlify.app/",
     github: "https://github.com/priyasarpate/sticky-notes",
   },
   {
@@ -89,6 +90,7 @@ export const smallprojects = [
     title: "Calender",
     url: "https://github.com/priyasarpate",
     img: "/img/calender.png",
+    live: "https://master--marvelous-creponne-c64b46.netlify.app/",
     github: "https://github.com/priyasarpate/calender",
   },
   {
@@ -96,6 +98,7 @@ export const smallprojects = [
     title: "Formik Form",
     url: "https://github.com/priyasarpate",
     img: "/img/formikform.png",
+    live: "https://master--marvelous-creponne-c64b46.netlify.app/",
     github: "https://github.com/priyasarpate/react-form",
   },
 ];
