@@ -8,6 +8,9 @@ function Header() {
           all
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
+          freelancing
+        </button>
+        <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
           case study
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
@@ -20,7 +23,7 @@ function Header() {
           dribbble into react
         </button>
         <button class="border-2 border-light-blue text-dark-blue rounded-2xl py-1 px-5  hover:bg-dark-blue hover:text-white hover:border-dark-blue">
-          concepts
+          UIconcepts
         </button>
       </div>
     </div>

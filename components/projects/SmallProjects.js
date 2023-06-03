@@ -28,7 +28,7 @@ function SmallProjects() {
               </span>
             </a>
             <div class="flex">
-              <a href={SmallProject.github} target="_blank">
+              <a href={SmallProject.live} target="_blank">
                 <MdWebAsset class="h-5 w-6 text-dark-blue hover:text-dark-blue cursor-pointer" />
               </a>
               <a href={SmallProject.github} target="_blank">

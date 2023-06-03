@@ -74,7 +74,7 @@ export const smallprojects = [
     id: 1,
     title: "Billing App",
     img: "/img/invoice.jpg",
-    live: "https://master--marvelous-creponne-c64b46.netlify.app/",
+    live: "https://priyasarpate.github.io/billing-app/",
     github: "https://github.com/priyasarpate/billing-app",
   },
   {
@@ -82,7 +82,7 @@ export const smallprojects = [
     title: "Sticky Notes",
     url: "https://github.com/priyasarpate",
     img: "/img/sticky_notes.jpg",
-    live: "https://master--marvelous-creponne-c64b46.netlify.app/",
+    live: "https://jocular-kangaroo-eb4884.netlify.app/",
     github: "https://github.com/priyasarpate/sticky-notes",
   },
   {
@@ -90,7 +90,7 @@ export const smallprojects = [
     title: "Calender",
     url: "https://github.com/priyasarpate",
     img: "/img/calender.png",
-    live: "https://master--marvelous-creponne-c64b46.netlify.app/",
+    live: "https://fanciful-nougat-9aee7c.netlify.app/",
     github: "https://github.com/priyasarpate/calender",
   },
   {
@@ -98,7 +98,7 @@ export const smallprojects = [
     title: "Formik Form",
     url: "https://github.com/priyasarpate",
     img: "/img/formikform.png",
-    live: "https://master--marvelous-creponne-c64b46.netlify.app/",
+    live: "https://magenta-hamster-b7c35f.netlify.app/",
     github: "https://github.com/priyasarpate/react-form",
   },
 ];

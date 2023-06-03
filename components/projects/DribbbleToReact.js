@@ -3,6 +3,8 @@ import { dribbletoreacts } from "./data";
 import { AiOutlineDribbble } from "react-icons/ai";
 import { IoBrowsers } from "react-icons/io";
 import { FiGithub } from "react-icons/fi";
+import { MdWebAsset } from "react-icons/md";
+
 import Image from "next/image";
 
 function DribbleToReact() {
@@ -29,6 +31,9 @@ function DribbleToReact() {
               </span>
             </a>
             <div class="flex">
+            <a href={dribbletoreact.live} target="_blank">
+                <MdWebAsset class="h-5 w-6 text-dark-blue hover:text-dark-blue cursor-pointer" />
+              </a>
               <a href={dribbletoreact.github} target="_blank">
                 <FiGithub class="h-5 w-5 text-dark-blue hover:text-dark-blue cursor-pointer" />
               </a>
